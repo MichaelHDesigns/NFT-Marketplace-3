@@ -23,6 +23,7 @@ module.exports = {
   networks: {
     hardhat:{
       chainId: 2330,
+      url: `https://altcoinchain.infura.io/v3/${projectId}`,
       accounts: [privateKey]
     }, 
     /*polygon: {
