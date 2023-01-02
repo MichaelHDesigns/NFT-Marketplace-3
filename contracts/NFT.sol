@@ -16,7 +16,7 @@ contract NFT is iNFT, ERC721URIStorage {
 
     address public contractAddress;
 
-    constructor(address marketplaceAddress) ERC721("Partnerverse Tokens", "PNTV") {
+    constructor(address marketplaceAddress) ERC721("ALT NFT Marketplace", "ANFT") {
         contractAddress = marketplaceAddress;
     }
 
