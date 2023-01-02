@@ -22,7 +22,8 @@ const projectId = "2JiDPAHVQOfT2Q6vywSZfLS0pU9";
 module.exports = {
   networks: {
     hardhat:{
-      chainId: 2330
+      chainId: 2330,
+      accounts: [privateKey]
     }, 
     /*polygon: {
       url: `https://polygon-mainnet.infura.io/v3/${projectId}`,
